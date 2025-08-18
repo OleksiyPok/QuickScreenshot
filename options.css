@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.path-block,
+.image-format-block,
+.image-quality-block,
+.flash-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+.quality-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+.quality-inputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.range-quality-input {
+  flex: 1;
+}
+.quality-input {
+  width: 60px;
+  box-sizing: border-box;
+}
+.success-message {
+  visibility: hidden;
+  color: green;
+  margin-left: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #eee;
+  }
+  .card {
+    background-color: #333;
+    border-color: #555;
+  }
+  button {
+    background-color: #444;
+  }
+  button:hover {
+    background-color: #666;
+  }
+}

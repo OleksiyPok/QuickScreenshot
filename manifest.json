@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Screenshot",
+  "version": "3.8",
+  "description": "Extension to create a quick screenshot in a pre-specified folder with a single mouse click or hotkeys. Supports jpeg, png, and webp formats.",
+  "author": "Oleksii Pokormiakho",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_title": "Take Screenshot",
+    "default_icon": {
+      "16": "screenshot_B_x16.png",
+      "48": "screenshot_B_x48.png",
+      "128": "screenshot_B_x128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Take a screenshot"
+    }
+  },
+  "icons": {
+    "16": "screenshot_B_x16.png",
+    "48": "screenshot_B_x48.png",
+    "128": "screenshot_B_x128.png"
+  }
+}
