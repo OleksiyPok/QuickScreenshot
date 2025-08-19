@@ -1,45 +1,50 @@
 # QuickScreenshot_vX.X
 
-Браузерное расширение для Chrome, позволяющее быстро делать скриншоты.
+A Chrome browser extension that allows you to quickly take screenshots.
 
 ---
 
-## 🚀 Установка
+## 🚀 Installation
 
-### Шаг 1. Скачайте расширение
-Скачайте архив **QuickScreenshot_vX.X.zip** и распакуйте его в удобное место на компьютере.
+### Step 1. Download the extension
+Download the archive **QuickScreenshot_vX.X.zip** and extract it to a convenient location on your computer.
 
 ---
 
-### Шаг 2. Откройте страницу расширений
-1. Откройте Google Chrome.  
-2. В адресной строке введите:  
+### Step 2. Open the Extensions page
+1. Open Google Chrome.  
+2. In the address bar, enter:  
    ```
    chrome://extensions
    ```
-3. Включите **Режим разработчика** (Developer mode) в правом верхнем углу.
+3. Enable **Developer mode** in the top right corner.
 
-📷 Скриншот:  
+📷 Screenshot:  
 ![Developer mode](screenshots/step2_developer_mode.png)
 
 ---
 
-### Шаг 3. Установите расширение
-1. Нажмите кнопку **"Загрузить распакованное"** (Load unpacked).  
-2. Выберите папку `QuickScreenshot_vX.X`.  
+### Step 3. Install the extension
+1. Click the **"Load unpacked"** button.  
+2. Select the `QuickScreenshot_vX.X` folder.  
 
-📷 Скриншот:  
+📷 Screenshot:  
 ![Load unpacked](screenshots/step3_load_unpacked.png)
 
 ---
 
-### Шаг 4. Готово!
-После установки расширение появится в списке.  
-Рекомендуется закрепить иконку в панели браузера для быстрого доступа.
+### Step 4. Done!
+After installation, the extension will appear in the list.  
+It is recommended to pin the icon to the browser toolbar for quick access.
 
-📷 Скриншот:  
+📷 Screenshot:  
 ![Extension installed](screenshots/step4_installed.png)
 
 ---
 
-## ✅ Теперь вы можете пользоваться QuickScreenshot_vX.X!
+## ✅ Now you can use QuickScreenshot_vX.X!
+
+---
+
+🌐 Available languages:  
+[English](README.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
