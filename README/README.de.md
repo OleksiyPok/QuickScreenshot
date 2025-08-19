@@ -23,7 +23,7 @@ Laden Sie das Archiv **QuickScreenshot.zip** herunter und entpacken Sie es an ei
    ```
 3. Aktivieren Sie den **Entwicklermodus** oben rechts.
 
-![Developer mode](screenshots/step2_developer_mode.png)
+![Developer mode](../screenshots/step2_developer_mode.png)
 
 ---
 
@@ -31,7 +31,7 @@ Laden Sie das Archiv **QuickScreenshot.zip** herunter und entpacken Sie es an ei
 1. Klicken Sie auf die Schaltfläche **"Entpackte Erweiterung laden"**.  
 2. Wählen Sie den Ordner `QuickScreenshot`.  
 
-![Load unpacked](screenshots/step3_load_unpacked.png)
+![Load unpacked](../screenshots/step3_load_unpacked.png)
 
 ---
 
@@ -39,7 +39,7 @@ Laden Sie das Archiv **QuickScreenshot.zip** herunter und entpacken Sie es an ei
 Nach der Installation erscheint die Erweiterung in der Liste.  
 Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff zu fixieren.
 
-![Extension installed](screenshots/step4_installed.png)
+![Extension installed](../screenshots/step4_installed.png)
 
 ---
 
@@ -48,4 +48,4 @@ Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff
 ---
 
 🌐 Verfügbare Sprachen:  
-[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README/README.de.md)

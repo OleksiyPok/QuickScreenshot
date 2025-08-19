@@ -23,7 +23,7 @@ Download het archief **QuickScreenshot.zip** en pak het uit op een handige locat
    ```
 3. Schakel **Ontwikkelaarsmodus** in (rechtsboven).
 
-![Developer mode](screenshots/step2_developer_mode.png)
+![Developer mode](../screenshots/step2_developer_mode.png)
 
 ---
 
@@ -31,8 +31,7 @@ Download het archief **QuickScreenshot.zip** en pak het uit op een handige locat
 1. Klik op de knop **"Uitgepakte extensie laden"**.  
 2. Selecteer de map `QuickScreenshot`.  
 
-
-![Load unpacked](screenshots/step3_load_unpacked.png)
+![Load unpacked](../screenshots/step3_load_unpacked.png)
 
 ---
 
@@ -40,7 +39,7 @@ Download het archief **QuickScreenshot.zip** en pak het uit op een handige locat
 Na de installatie verschijnt de extensie in de lijst.  
 Het wordt aanbevolen om het pictogram vast te zetten in de browserwerkbalk voor snelle toegang.
 
-![Extension installed](screenshots/step4_installed.png)
+![Extension installed](../screenshots/step4_installed.png)
 
 ---
 

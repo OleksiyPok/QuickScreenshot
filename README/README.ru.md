@@ -23,7 +23,7 @@
    ```
 3. Включите **Режим разработчика** (Developer mode) в правом верхнем углу.
 
-![Developer mode](screenshots/step2_developer_mode.png)
+![Developer mode](../screenshots/step2_developer_mode.png)
 
 ---
 
@@ -31,7 +31,7 @@
 1. Нажмите кнопку **"Загрузить распакованное"**.  
 2. Выберите папку `QuickScreenshot`.  
   
-![Load unpacked](screenshots/step3_load_unpacked.png)
+![Load unpacked](../screenshots/step3_load_unpacked.png)
 
 ---
 
@@ -39,7 +39,7 @@
 После установки расширение появится в списке.  
 Рекомендуется закрепить иконку в панели браузера для быстрого доступа.
  
-![Extension installed](screenshots/step4_installed.png)
+![Extension installed](../screenshots/step4_installed.png)
 
 ---
 

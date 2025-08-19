@@ -23,7 +23,7 @@
    ```
 3. Увімкніть **Режим розробника** у верхньому правому куті.
 
-![Developer mode](screenshots/step2_developer_mode.png)
+![Developer mode](../screenshots/step2_developer_mode.png)
 
 ---
 
@@ -31,7 +31,7 @@
 1. Натисніть кнопку **"Завантажити розпаковане"**.  
 2. Виберіть папку `QuickScreenshot`.  
 
-![Load unpacked](screenshots/step3_load_unpacked.png)
+![Load unpacked](../screenshots/step3_load_unpacked.png)
 
 ---
 
@@ -39,7 +39,7 @@
 Після встановлення розширення з’явиться у списку.  
 Рекомендується закріпити іконку на панелі браузера для швидкого доступу.
 
-![Extension installed](screenshots/step4_installed.png)
+![Extension installed](../screenshots/step4_installed.png)
 
 ---
 
