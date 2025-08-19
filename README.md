@@ -13,6 +13,8 @@ A Chrome browser extension that allows you to quickly take screenshots.
 ### Step 1. Download the extension
 Download the archive **QuickScreenshot.zip** and extract it to a convenient location on your computer.
 
+---
+
 ### Step 2. Open the Extensions page
 1. Open Google Chrome.  
 2. In the address bar, enter:  
@@ -23,17 +25,23 @@ Download the archive **QuickScreenshot.zip** and extract it to a convenient loca
  
 ![Developer mode](screenshots/step2_developer_mode.png)
 
+---
+
 ### Step 3. Install the extension
 1. Click the **"Load unpacked"** button.  
 2. Select the `QuickScreenshot` folder.  
  
 ![Load unpacked](screenshots/step3_load_unpacked.png)
 
+---
+
 ### Step 4. Done!
 After installation, the extension will appear in the list.  
 It is recommended to pin the icon to the browser toolbar for quick access.
  
 ![Extension installed](screenshots/step4_installed.png)
+
+---
 
 ✅ Now you can use QuickScreenshot!
 
