@@ -38,7 +38,7 @@ It is recommended to pin the icon to the browser toolbar for quick access.
 📷 Screenshot:  
 ![Extension installed](screenshots/step4_installed.png)
 
-## ✅ Now you can use QuickScreenshot_vX.X!
+✅ Now you can use QuickScreenshot_vX.X!
 
 ---
 

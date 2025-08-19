@@ -38,7 +38,7 @@ Het wordt aanbevolen om het pictogram vast te zetten in de browserwerkbalk voor 
 📷 Screenshot:  
 ![Extension installed](screenshots/step4_installed.png)
 
-## ✅ Nu kunt u QuickScreenshot_vX.X gebruiken!
+✅ Nu kunt u QuickScreenshot_vX.X gebruiken!
 
 ---
 

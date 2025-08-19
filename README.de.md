@@ -40,7 +40,7 @@ Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff
 
 ---
 
-## ✅ Jetzt können Sie QuickScreenshot_vX.X verwenden!
+✅ Jetzt können Sie QuickScreenshot_vX.X verwenden!
 
 ---
 
