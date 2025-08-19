@@ -4,7 +4,7 @@ Eine Chrome-Erweiterung, mit der Sie schnell Screenshots erstellen können.
 ---
 
 🌐 Available languages:  
-[English](README.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
 
 ---
 
@@ -48,4 +48,4 @@ Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff
 ---
 
 🌐 Verfügbare Sprachen:  
-[English](README.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
