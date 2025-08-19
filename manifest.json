@@ -13,9 +13,9 @@
   "action": {
     "default_title": "Take Screenshot",
     "default_icon": {
-      "16": "screenshot_B_x16.png",
-      "48": "screenshot_B_x48.png",
-      "128": "screenshot_B_x128.png"
+      "16": "icons/screenshot_B_x16.png",
+      "48": "icons/screenshot_B_x48.png",
+      "128": "icons/screenshot_B_x128.png"
     }
   },
   "background": {
@@ -31,8 +31,8 @@
     }
   },
   "icons": {
-    "16": "screenshot_B_x16.png",
-    "48": "screenshot_B_x48.png",
-    "128": "screenshot_B_x128.png"
+    "16": "icons/screenshot_B_x16.png",
+    "48": "icons/screenshot_B_x48.png",
+    "128": "icons/screenshot_B_x128.png"
   }
 }

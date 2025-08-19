@@ -112,17 +112,17 @@ function takeScreenshot(tab) {
 function flashIcon() {
   chrome.action.setIcon({
     path: {
-      16: "screenshot_R_x16.png",
-      48: "screenshot_R_x48.png",
-      128: "screenshot_R_x128.png",
+      16: "icons/screenshot_R_x16.png",
+      48: "icons/screenshot_R_x48.png",
+      128: "icons/screenshot_R_x128.png",
     },
   });
   setTimeout(() => {
     chrome.action.setIcon({
       path: {
-        16: "screenshot_B_x16.png",
-        48: "screenshot_B_x48.png",
-        128: "screenshot_B_x128.png",
+        16: "icons/screenshot_B_x16.png",
+        48: "icons/screenshot_B_x48.png",
+        128: "icons/screenshot_B_x128.png",
       },
     });
   }, 150);
