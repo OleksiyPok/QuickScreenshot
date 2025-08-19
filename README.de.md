@@ -1,4 +1,5 @@
 # QuickScreenshot_vX.X
+Eine Chrome-Erweiterung, mit der Sie schnell Screenshots erstellen können.
 
 ---
 
@@ -7,16 +8,10 @@
 
 ---
 
-Eine Chrome-Erweiterung, mit der Sie schnell Screenshots erstellen können.
-
----
-
 ## 🚀 Installation
 
 ### Schritt 1. Laden Sie die Erweiterung herunter
 Laden Sie das Archiv **QuickScreenshot_vX.X.zip** herunter und entpacken Sie es an einem geeigneten Ort auf Ihrem Computer.
-
----
 
 ### Schritt 2. Öffnen Sie die Erweiterungsseite
 1. Öffnen Sie Google Chrome.  
@@ -29,16 +24,12 @@ Laden Sie das Archiv **QuickScreenshot_vX.X.zip** herunter und entpacken Sie es 
 📷 Screenshot:  
 ![Developer mode](screenshots/step2_developer_mode.png)
 
----
-
 ### Schritt 3. Installieren Sie die Erweiterung
 1. Klicken Sie auf die Schaltfläche **"Entpackte Erweiterung laden"**.  
 2. Wählen Sie den Ordner `QuickScreenshot_vX.X`.  
 
 📷 Screenshot:  
 ![Load unpacked](screenshots/step3_load_unpacked.png)
-
----
 
 ### Schritt 4. Fertig!
 Nach der Installation erscheint die Erweiterung in der Liste.  
