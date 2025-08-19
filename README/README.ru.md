@@ -1,10 +1,10 @@
-# QuickScreenshot
-Браузерное расширение для Chrome, позволяющее быстро делать скриншоты.
+🌐 Доступные языки:  
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
 
 ---
 
-🌐 Available languages:  
-[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+# QuickScreenshot
+Браузерное расширение для Chrome, позволяющее быстро делать скриншоты.
 
 ---
 

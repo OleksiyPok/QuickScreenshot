@@ -1,10 +1,10 @@
-# QuickScreenshot
-Een Chrome-extensie waarmee u snel schermafbeeldingen kunt maken.
+🌐 Beschikbare talen:  
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
 
 ---
 
-🌐 Available languages:  
-[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+# QuickScreenshot
+Een Chrome-extensie waarmee u snel schermafbeeldingen kunt maken.
 
 ---
 

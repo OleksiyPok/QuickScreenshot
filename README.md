@@ -1,10 +1,10 @@
-# QuickScreenshot
-A Chrome browser extension that allows you to quickly take screenshots.
+🌐 Available languages:  
+[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
 
 ---
 
-🌐 Available languages:  
-[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
+# QuickScreenshot
+A Chrome browser extension that allows you to quickly take screenshots.
 
 ---
 
