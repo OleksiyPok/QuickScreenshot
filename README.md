@@ -1,11 +1,7 @@
 # QuickScreenshot_vX.X
 
----
-
 🌐 Available languages:  
 [English](README.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
-
----
 
 A Chrome browser extension that allows you to quickly take screenshots.
 
