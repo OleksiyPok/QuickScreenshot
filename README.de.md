@@ -1,5 +1,12 @@
 # QuickScreenshot_vX.X
 
+---
+
+🌐 Available languages:  
+[English](README.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
+
+---
+
 Eine Chrome-Erweiterung, mit der Sie schnell Screenshots erstellen können.
 
 ---
