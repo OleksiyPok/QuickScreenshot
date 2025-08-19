@@ -4,7 +4,7 @@ Een Chrome-extensie waarmee u snel schermafbeeldingen kunt maken.
 ---
 
 🌐 Available languages:  
-[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
 
 ---
 
@@ -49,4 +49,4 @@ Het wordt aanbevolen om het pictogram vast te zetten in de browserwerkbalk voor 
 ---
 
 🌐 Beschikbare talen:  
-[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)

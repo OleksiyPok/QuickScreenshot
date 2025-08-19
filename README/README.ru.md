@@ -4,7 +4,7 @@
 ---
 
 🌐 Available languages:  
-[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
 
 ---
 
@@ -48,4 +48,4 @@
 ---
 
 🌐 Доступные языки:  
-[English](README/README.en.md) | [Русский](README/README.ru.md) | [Українська](README/README.uk.md) | [Nederlands](README/README.nl.md) | [Deutsch](README/README.de.md)
+[English](README.en.md) | [Русский](README.ru.md) | [Українська](README.uk.md) | [Nederlands](README.nl.md) | [Deutsch](README.de.md)
