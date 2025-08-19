@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Quick Screenshot",
-  "version": "3.8",
+  "version": "3.9",
   "description": "Extension to create a quick screenshot in a pre-specified folder with a single mouse click or hotkeys. Supports jpeg, png, and webp formats.",
   "author": "Oleksii Pokormiakho",
   "permissions": [

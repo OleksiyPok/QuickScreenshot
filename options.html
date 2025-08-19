@@ -61,16 +61,31 @@
     </div>
 
     <div class="card">
-      <h2>Hotkeys</h2>
+      <h2>Chrome Settings</h2>
+      <p>Open Chrome's settings</p>
+      <h3>Hotkeys</h3>
       <p>Set keyboard shortcuts for screenshots in the browser settings.</p>
-      <a id="hotkeyLink" href="#">Open hotkey settings</a>
-      <br /><br />
-      <button id="copyHotkey">Copy</button>
-      <span id="copySuccess" class="success-message">Operation successful</span>
+      <div class="link-wrapper">
+        <a class="link" id="hotkeyLink" href="#">Open hotkey settings</a>
+        <button class="copy-button" id="copyHotkey">Copy link</button>
+      </div>
+      <span id="hotkeyLinkCopySuccess" class="success-message"
+        >Copy successful</span
+      >
+
+      <h3>Chrome Downloads</h3>
+      <p>Settings to change the default download folder and behavior.</p>
+      <div class="link-wrapper">
+        <a class="link" id="downloadsLink" href="#">Open downloads settings</a>
+        <button class="copy-button" id="copyDownloads">Copy link</button>
+      </div>
+      <span id="downloadsLinkCopySuccess" class="success-message"
+        >Copy successful</span
+      >
     </div>
 
     <div class="card">
-      <h2>About</h2>
+      <h3>About</h3>
       <p>
         Author: Oleksii Pokormiakho<br />
         Website:

@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const saveButton = document.getElementById("saveButton");
   const hotkeyLink = document.getElementById("hotkeyLink");
   const copyHotkey = document.getElementById("copyHotkey");
+  const copyDownloads = document.getElementById("copyDownloads");
+  const downloadsLink = document.getElementById("downloadsLink");
 
   function setQualityEnabled(enabled) {
     if (!rangeQualityInput || !qualityInput || !qualityBlock) return;
@@ -98,9 +100,22 @@ document.addEventListener("DOMContentLoaded", () => {
     chrome.tabs.create({ url: "chrome://extensions/shortcuts" });
   });
 
+  if (downloadsLink) {
+    downloadsLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      chrome.tabs.create({ url: "chrome://settings/downloads" });
+    });
+  }
+
   copyHotkey.addEventListener("click", () => {
     navigator.clipboard.writeText("Ctrl+Shift+Y").then(() => {
-      showSuccess("copySuccess");
+      showSuccess("hotkeyLinkCopySuccess");
+    });
+  });
+
+  copyDownloads.addEventListener("click", () => {
+    navigator.clipboard.writeText("Ctrl+Shift+Y").then(() => {
+      showSuccess("downloadsLinkCopySuccess");
     });
   });
 });

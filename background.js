@@ -34,62 +34,87 @@ chrome.commands.onCommand.addListener((command) => {
 });
 
 function takeScreenshot(tab) {
-  chrome.storage.local.get(["prefix", "subfolder", "flashEnabled", "imageFormat", "imageQuality"], (data) => {
-    const fmt = (data.imageFormat || "png").toLowerCase();
-    const qNum = (typeof data.imageQuality === "number" ? data.imageQuality : 92);
-    const qualityFraction = Math.min(1, Math.max(0.1, qNum / 100));
+  chrome.storage.local.get(
+    ["prefix", "subfolder", "flashEnabled", "imageFormat", "imageQuality"],
+    (data) => {
+      const fmt = (data.imageFormat || "png").toLowerCase();
+      const qNum =
+        typeof data.imageQuality === "number" ? data.imageQuality : 92;
+      const qualityFraction = Math.min(1, Math.max(0.1, qNum / 100));
 
-    const captureFormat = (fmt === "jpeg") ? "jpeg" : "png";
-    const captureOpts = (captureFormat === "jpeg") ? { format: "jpeg", quality: Math.round(qNum) } : { format: "png" };
+      const captureFormat = fmt === "jpeg" ? "jpeg" : "png";
+      const captureOpts =
+        captureFormat === "jpeg"
+          ? { format: "jpeg", quality: Math.round(qNum) }
+          : { format: "png" };
 
-    chrome.tabs.captureVisibleTab(tab.windowId, captureOpts, async (image) => {
-      const now = new Date();
-      const timestamp =
-        now.getFullYear() + "-" +
-        String(now.getMonth() + 1).padStart(2, "0") + "-" +
-        String(now.getDate()).padStart(2, "0") + "_" +
-        String(now.getHours()).padStart(2, "0") + "-" +
-        String(now.getMinutes()).padStart(2, "0") + "-" +
-        String(now.getSeconds()).padStart(2, "0") + "-" +
-        String(now.getMilliseconds()).padStart(3, "0");
+      chrome.tabs.captureVisibleTab(
+        tab.windowId,
+        captureOpts,
+        async (image) => {
+          const now = new Date();
+          const timestamp =
+            now.getFullYear() +
+            "-" +
+            String(now.getMonth() + 1).padStart(2, "0") +
+            "-" +
+            String(now.getDate()).padStart(2, "0") +
+            "_" +
+            String(now.getHours()).padStart(2, "0") +
+            "-" +
+            String(now.getMinutes()).padStart(2, "0") +
+            "-" +
+            String(now.getSeconds()).padStart(2, "0") +
+            "-" +
+            String(now.getMilliseconds()).padStart(3, "0");
 
-      const prefix = data.prefix || "screenshot";
-      const subfolder = data.subfolder || "";
-      const ext = (fmt === "jpeg") ? "jpg" : fmt;
-      let filename = prefix + "_" + timestamp + "." + ext;
-      let path = subfolder ? (subfolder + "/" + filename) : filename;
+          const prefix = data.prefix || "screenshot";
+          const subfolder = data.subfolder || "";
+          const ext = fmt === "jpeg" ? "jpg" : fmt;
+          let filename = prefix + "_" + timestamp + "." + ext;
+          let path = subfolder ? subfolder + "/" + filename : filename;
 
-      let urlToDownload = image;
-      try {
-        if (fmt === "webp") {
-          urlToDownload = await convertDataURL(image, "webp", qualityFraction);
-        } else if (fmt === "jpeg" && captureFormat !== "jpeg") {
-          urlToDownload = await convertDataURL(image, "jpeg", qualityFraction);
+          let urlToDownload = image;
+          try {
+            if (fmt === "webp") {
+              urlToDownload = await convertDataURL(
+                image,
+                "webp",
+                qualityFraction
+              );
+            } else if (fmt === "jpeg" && captureFormat !== "jpeg") {
+              urlToDownload = await convertDataURL(
+                image,
+                "jpeg",
+                qualityFraction
+              );
+            }
+          } catch (e) {
+            const fallbackExt = captureFormat === "jpeg" ? "jpg" : "png";
+            filename = prefix + "_" + timestamp + "." + fallbackExt;
+            path = subfolder ? subfolder + "/" + filename : filename;
+          }
+
+          chrome.downloads.download({
+            url: urlToDownload,
+            filename: path,
+          });
+
+          if (data.flashEnabled !== false) {
+            flashIcon();
+          }
         }
-      } catch (e) {
-        const fallbackExt = captureFormat === "jpeg" ? "jpg" : "png";
-        filename = prefix + "_" + timestamp + "." + fallbackExt;
-        path = subfolder ? (subfolder + "/" + filename) : filename;
-      }
-
-      chrome.downloads.download({
-        url: urlToDownload,
-        filename: path,
-      });
-
-      if (data.flashEnabled !== false) {
-        flashIcon();
-      }
-    });
-  });
+      );
+    }
+  );
 }
 
 function flashIcon() {
   chrome.action.setIcon({
     path: {
-      16: "screenshot_Y_x16.png",
-      48: "screenshot_Y_x48.png",
-      128: "screenshot_Y_x128.png",
+      16: "screenshot_R_x16.png",
+      48: "screenshot_R_x48.png",
+      128: "screenshot_R_x128.png",
     },
   });
   setTimeout(() => {
