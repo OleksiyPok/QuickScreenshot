@@ -44,7 +44,7 @@ Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff
 ---
 ## ⚙️ Zugriff auf Einstellungen
 
-Zugriff auf die Programmeinstellungen per Rechtsklick.
+Zugriff auf die Programmeinstellungen per Rechtsklick.  
 Alle Pfade sind relativ zum Download-Ordner von Google Chrome!
 
 ![Settings](../screenshots/options.png)

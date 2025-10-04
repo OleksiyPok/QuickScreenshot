@@ -44,7 +44,7 @@ It is recommended to pin the icon to the browser toolbar for quick access.
 ---
 ## ⚙️ Access to Settings
 
-Access the program settings with a right-click.
+Access the program settings with a right-click.  
 All paths are relative to the Google Chrome download folder!
 
 ![Settings](./screenshots/options.png)
