@@ -45,6 +45,7 @@ Het wordt aanbevolen om het pictogram vast te zetten in de browserwerkbalk voor 
 ## ⚙️ Toegang tot instellingen
 
 Open de programmainstellingen met een rechtermuisklik.
+Alle paden zijn relatief ten opzichte van de Google Chrome-downloadmap!
 
 ![Settings](../screenshots/options.png)
 
