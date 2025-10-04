@@ -23,7 +23,7 @@ Download the archive **QuickScreenshot.zip** and extract it to a convenient loca
    ```
 3. Enable **Developer mode** in the top right corner.
  
-![Developer mode](screenshots/step2_developer_mode.png)
+![Developer mode](./screenshots/step2_developer_mode.png)
 
 ---
 
@@ -31,7 +31,7 @@ Download the archive **QuickScreenshot.zip** and extract it to a convenient loca
 1. Click the **"Load unpacked"** button.  
 2. Select the `QuickScreenshot` folder.  
  
-![Load unpacked](screenshots/step3_load_unpacked.png)
+![Load unpacked](./screenshots/step3_load_unpacked.png)
 
 ---
 
@@ -39,7 +39,14 @@ Download the archive **QuickScreenshot.zip** and extract it to a convenient loca
 After installation, the extension will appear in the list.  
 It is recommended to pin the icon to the browser toolbar for quick access.
  
-![Extension installed](screenshots/step4_installed.png)
+![Extension installed](./screenshots/step4_installed.png)
+
+---
+## ⚙️ Access to Settings
+
+Access the program settings with a right-click.
+
+![Settings](./screenshots/options.png)
 
 ---
 

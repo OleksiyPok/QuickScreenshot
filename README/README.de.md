@@ -42,6 +42,13 @@ Es wird empfohlen, das Symbol in der Browser-Symbolleiste für schnellen Zugriff
 ![Extension installed](../screenshots/step4_installed.png)
 
 ---
+## ⚙️ Zugriff auf Einstellungen
+
+Zugriff auf die Programmeinstellungen per Rechtsklick.
+
+![Settings](../screenshots/options.png)
+
+---
 
 ✅ Jetzt können Sie QuickScreenshot verwenden!
 

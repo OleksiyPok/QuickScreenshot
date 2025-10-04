@@ -42,6 +42,13 @@ Het wordt aanbevolen om het pictogram vast te zetten in de browserwerkbalk voor 
 ![Extension installed](../screenshots/step4_installed.png)
 
 ---
+## ⚙️ Toegang tot instellingen
+
+Open de programmainstellingen met een rechtermuisklik.
+
+![Settings](../screenshots/options.png)
+
+---
 
 ✅ Nu kunt u QuickScreenshot gebruiken!
 

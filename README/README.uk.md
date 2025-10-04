@@ -41,6 +41,14 @@
 
 ![Extension installed](../screenshots/step4_installed.png)
 
+
+---
+## ⚙️ Доступ до налаштувань
+
+Доступ до налаштувань програми натисканням правої кнопки миші.
+
+![Settings](../screenshots/options.png)
+
 ---
 
 ✅ Тепер ви можете користуватися QuickScreenshot!

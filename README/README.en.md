@@ -42,6 +42,13 @@ It is recommended to pin the icon to the browser toolbar for quick access.
 ![Extension installed](../screenshots/step4_installed.png)
 
 ---
+## ⚙️ Access to Settings
+
+Access the program settings with a right-click.
+
+![Settings](../screenshots/options.png)
+
+---
 
 ✅ Now you can use QuickScreenshot!
 
